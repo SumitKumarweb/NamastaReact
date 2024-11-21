@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is sumit project",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SumitKumarweb/NamastaReact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Sumit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SumitKumarweb/NamastaReact/issues"
+  },
+  "homepage": "https://github.com/SumitKumarweb/NamastaReact#readme",
+  "devDependencies": {
+    "parcel": "^2.13.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

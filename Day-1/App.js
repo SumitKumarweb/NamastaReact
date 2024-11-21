@@ -1,10 +1,8 @@
+import React from "react"
+import ReactDOM from 'react-dom'
 const heading = React.createElement('h1',{id:'heading'},'Hello world from react app')
 const root = ReactDOM.createRoot(document.getElementById('root'))
-// root.render(heading)
-
-// console.log(heading) return object
-
-const parent = React.createElement('div',{id:'parent'},
+ const parent = React.createElement('div',{id:'parent'},
     [React.createElement('div',{id:'child'},
         [
             React.createElement('h1',{id:'heading'},'Hello world from react app'),
